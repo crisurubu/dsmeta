@@ -1,5 +1,6 @@
 package com.devsuperior.dsmeta.config;
 
+
 import java.util.Arrays;
 
 import org.springframework.context.annotation.Bean;
@@ -15,7 +16,6 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
-	
 
 	@Bean
 	public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
